@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta http-equiv="refresh" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+	<link rel="stylesheet" href="..\CSS\fiche_style1.css">
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <title>Reservation</title>
+</head>
+<body>
+    <div class="w3-bar w3-black  ">
+		<a href="../index.html" class="w3-bar-item w3-button w3-mobile w3-text-green"
+			style="width:16.6%;">Home</a>
+		<a href="page1.html" class="w3-bar-item w3-button w3-mobile"
+			style="width:16.6%;">Missions</a>
+			<div class="w3-dropdown-click w3-mobile" style="width:16.6%;text-align: center;">
+				<button onclick="myFunction()" class="w3-button " style="width: 100%;">Location</button>
+				<div id="Demo" class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 16.6%;">
+					<a href="..\html\location\HP-location.html" class="w3-bar-item w3-button w3-center">HarryPotter site Location</a>
+				<a href="..\html\location\KH-location.html"class="w3-bar-item w3-button w3-center">KOH-LANTA site Location</a>
+				<a href="..\html\location\ADS-location.html"class="w3-bar-item w3-button w3-center">Agents of Shield site Location</a>
+				<a href="..\html\location\PB-location.html"class="w3-bar-item w3-button w3-center">Prison Break site Location</a>		
+				<a href="..\html\location\SW-location.html"class="w3-bar-item w3-button w3-center">The Swat site Location</a>
+				<a href="..\html\location\TW-location.html"class="w3-bar-item w3-button w3-center">The Witcher site Location</a>
+				<a href="..\html\location\WWZ-location.html"class="w3-bar-item w3-button w3-center">WorldWar Z site Location</a>
+				<a href="..\html\location\T100-location.html"class="w3-bar-item w3-button w3-center">The 100 site Location</a>
+				<a href="..\html\location\MF-location.html"class="w3-bar-item w3-button w3-center">Manifest site Location</a>
+				<a href="..\html\location\RK-location.html"class="w3-bar-item w3-button w3-center">Ragnarok site Location</a>
+				</div>
+			</div>
+		<a href="page2.html" class="w3-bar-item w3-button w3-mobile"
+			style="width:16.6%;">Reservation</a>
+		<input type="text" class="w3-bar-item w3-input w3-mobile " style="width:16.6%;" placeholder="Search..">
+		<a href="#" class="w3-bar-item w3-button w3-green w3-mobile" style="width:16.6%;">Go</a>
+	</div>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("Demo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+	</script>
+	<style>
+		.w3-allerta {
+			font-family: "Allerta Stencil", Sans-serif;
+		}
+	</style>
+	<section class = "w3-container">
+		<h2>BOOK YOUR SESSION NOW</h2>
+		<div class = "w3-row w3-card w3-container w3-black w3-round-xlarge">
+			<div class = "w3-card w3-half w3-center">
+				<img src="../Images/reservation_card.png" class="w3-round-xxlarge w3-padding-16" style="width: 50%;" alt="Reservation card">
+			</div>
+
+			<div class = "w3-card w3-half">
+				<h3>Reservation</h3>
+				<form>
+					<div class = "w3-container w3-padding-small">
+						<select name = "days">
+							<option value = "day-select">Select Day</option>
+							<option value = "sunday">Sunday</option>
+							<option value = "monday">Monday</option>
+							<option value = "tuesday">Tuesday</option>
+							<option value = "wednesday">Wednesday</option>
+							<option value = "thursday">Thursday</option>
+							<option value = "friday">Friday</option>
+							<option value = "saturday">Saturday</option>
+						</select>
+
+						<select name = "hours">
+							<option value = "hour-select">Select Hour</option>
+							<option value = "10">10: 00</option>
+							<option value = "10">12: 00</option>
+							<option value = "10">14: 00</option>
+							<option value = "10">16: 00</option>
+							<option value = "10">18: 00</option>
+							<option value = "10">20: 00</option>
+							<option value = "10">22: 00</option>
+						</select>
+					</div>
+
+					<div class = "w3-container w3-padding-small">
+						<input type = "text" placeholder="Full Name">
+						<input type = "text" placeholder="Phone Number">
+					</div>
+
+					<div class = "w3-container w3-padding-small">
+						<input type = "number" placeholder="How Many Persons 3-5	?" max="5">
+						<input type = "submit" value = "BOOK">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta http-equiv="refresh" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+	<link rel="stylesheet" href="..\CSS\fiche_style1.css">
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<title>Missions</title>
+</head>
+
+<body>
+	<div class="w3-bar w3-black  ">
+		<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-text-green" style="width:16.6%;">Home</a>
+		<a href="page1.html" class="w3-bar-item w3-button w3-mobile" style="width:16.6%;">Missions</a>
+		<div class="w3-dropdown-click w3-mobile" style="width:16.6%;text-align: center;">
+			<button onclick="myFunction()" class="w3-button " style="width: 100%;">Location</button>
+			<div id="Demo" class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 16.6%;">
+				<a href="..\html\location\HP-location.html" class="w3-bar-item w3-button w3-center">HarryPotter site Location</a>
+				<a href="..\html\location\KH-location.html"class="w3-bar-item w3-button w3-center">KOH-LANTA site Location</a>
+				<a href="..\html\location\ADS-location.html"class="w3-bar-item w3-button w3-center">Agents of Shield site Location</a>
+				<a href="..\html\location\PB-location.html"class="w3-bar-item w3-button w3-center">Prison Break site Location</a>		
+				<a href="..\html\location\SW-location.html"class="w3-bar-item w3-button w3-center">The Swat site Location</a>
+				<a href="..\html\location\TW-location.html"class="w3-bar-item w3-button w3-center">The Witcher site Location</a>
+				<a href="..\html\location\WWZ-location.html"class="w3-bar-item w3-button w3-center">WorldWar Z site Location</a>
+				<a href="..\html\location\T100-location.html"class="w3-bar-item w3-button w3-center">The 100 site Location</a>
+				<a href="..\html\location\MF-location.html"class="w3-bar-item w3-button w3-center">Manifest site Location</a>
+				<a href="..\html\location\RK-location.html"class="w3-bar-item w3-button w3-center">Ragnarok site Location</a>
+			</div>
+		</div>
+		<a href="F:\TP_HTML\E_E_G_Websites\html\page2.html" class="w3-bar-item w3-button w3-mobile"
+			style="width:16.6%;">Reservation</a>
+		<input type="text" class="w3-bar-item w3-input w3-mobile " style="width:16.6%;" placeholder="Search..">
+		<a href="#" class="w3-bar-item w3-button w3-green w3-mobile" style="width:16.6%;">Go</a>
+	</div>
+	<script>
+		function myFunction() {
+			var x = document.getElementById("Demo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+	</script>
+	<style>
+		.w3-allerta {
+			font-family: "Allerta Stencil", Sans-serif;
+		}
+	</style>
+	<div class="w3-container">
+	<h2 class=" w3-center w3-border-bottom w3-border-light-grey w3-padding-16"> All the diferent types of missions are there</h2>
+	<div class="w3-row w3-container w3-center ">
+		<div class="w3-row">
+			<div class="w3-container w3-cell w3-half">
+				<div class="w3-display-container " >
+					<a href="location/HP-location.html"><img src="..\Images\Escape_Game_Harry_Potter.jpg" style="width:100%;max-width:400px;height: 35em;"
+						alt="Harry potter" class="w3-hover-opacity"></a>
+					<div class="w3-right w3-display-hover w3-hover-opacity">
+						
+					</div>
+				</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-padding-small w3-border w3-justify">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=RBojLx8z6eMEqxcxoNWLuD9SqbotqVTdP8E">ici</a>
+				</p>
+			</div>
+			<div class="w3-display-container w3-cell w3-half">
+				<div class="w3-display-container">
+					<a href="location/KH-location.html"><img src="../Images/Escape_Game_KOH-LANTA.jpg" style="width:100%;max-width:400px;height: 35em;" alt="Koh Lanta" class="w3-hover-opacity"></a>
+					<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+					</div>
+				</div>	
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=qAgyUCe3QuMEMGZEF0OLcnpbGrah......M">ici</a>
+				</p>
+			</div>
+		</div>
+		<div class="w3-row">
+			<div class="w3-container w3-cell w3-half">
+				<a href="location/ADS-location.html"><img src="../Images/Escape_Game_LES_AGENTS_DU_SHIELD.jpg"
+				style="width:100%;max-width:400px;height: 35em;" alt="Agents Of Shield" class="w3-hover-opacity"></a>
+					<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=RCXio43hiuMEqxcxoNWLuD9SqbotqVTdP5c">ici</a>
+				</p>
+			</div>
+			<div class="w3-container w3-cell w3-half">
+				<a href="location/PB-location.html"><img src="../Images/Escape_game_prison_break.jpg" style="width:100%;max-width:400px;height: 35em;" alt="Prison Break" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=RCXio43hiuMEqxcxoNWLuD9SqbotqVTdP5c">ici</a>
+				</p>
+			</div>
+		</div>
+		<div class="w3-row">
+			<div class="w3-container w3-cell w3-half">
+				<a href="location/SW-location.html"><img src="../Images/Escape_Game_SWAT.jpg" style="width:100%;max-width:400px;height: 35em;" alt="The Swat" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=qPVSSQ2rjOMEMGZEF0OLcnpbGrah.....40">ici</a>
+				</p>
+			</div>
+			<div class="w3-container w3-cell w3-half">
+				<a href="location/TW-location.html"><img src="../Images/Escape_Game_THE_WITCHER.jpg" style="width:100%;max-width:400px;height: 35em;" alt="The Witcher" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=RK1hdrAHT-MEqxcxoNWLuD9SqbotqVTdP.I">ici</a>
+				</p>
+			</div>
+		</div>
+		<div class="w3-container w3-cell w3-half">
+			<div>
+				<a href="location/WWZ-location.html"><img src="../Images/Escape_Game_WWZ.jpg" style="width:100%;max-width:400px;height: 35em;" alt="World War Z" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://www.bing.com/images/blob?bcid=RBojLx8z6eMEqxcxoNWLuD9SqbotqVTdP8E">ici</a>
+				</p>
+			</div>
+			<div>
+				<a href="location/MF-location.html"><img src="../Images/Manifest.jpg" style="width:100%;max-width:400px;height: 35em;" alt="Manifest" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://fr.web.img6.acsta.net/pictures/19/12/24/09/27/2970070.jpg">ici</a>
+				</p>
+			</div>
+		</div>
+		<div class="w3-container w3-cell w3-half">
+			<div>
+				<a href="location/T100-location.html"><img src="../Images/the100.jpg" style="width:100%;max-width:400px;height: 35em;" alt="The100" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://fr.web.img5.acsta.net/pictures/20/05/18/09/30/1101000.jpg">ici</a>
+				</p>
+			</div>
+			<div>
+				<a href="location/RK-location.html"><img src="../Images/Ragnarok.jpg" style="width:100%;max-width:400px;height: 35em;" alt="Ragnarok" class="w3-hover-opacity"></a>
+				<div class="w3-display-middle w3-display-hover w3-hover-opacity">
+						<div class="w3-button" style='font-size:24px'><i class="material-icons">&#xe5c8;</i></div>
+					</div>
+				<p class="w3-center w3-metro-darken w3-round-xxlarge w3-border w3-padding-small">En savoir plus sur la photos : cliquer <a
+						href="https://fr.web.img4.acsta.net/pictures/19/12/05/09/14/4556356.jpg">ici</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+		<span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+		<div class="w3-modal-content w3-animate-zoom">
+			<img id="img01" style="width:100%">
+		</div>
+	</div>
+</div>
+</body>
+
+</html>

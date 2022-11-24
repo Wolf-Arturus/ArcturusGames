@@ -1,0 +1,35 @@
+body {
+	background-color: rgb(127, 127, 127);
+	font-family: "Lato";
+}
+@media screen and (max-width: 1000px)
+{
+    #section-gauche
+    {
+        max-width: 1000px;
+        min-height: 430px;
+    }
+     
+    #section-droite
+    {
+        max-width: 1000px;
+        min-height: 430px;
+    }
+}
+ 
+@media screen and (min-width: 1000px)
+{
+    #section-gauche
+    {
+        width: 700px;
+        float: left;
+        min-height: 430px;
+    }
+     
+    #section-droite
+    {
+        width: 300px;
+        float: right;
+        min-height: 430px;
+    }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta http-equiv="refresh" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+	<link rel="stylesheet" href="..\CSS\fiche_style1.css">
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<title class="w3-container w3-metro-green">Escape Breteuil</title>
+</head>
+<style>
+	.w3-btn {width:150px;}
+</style>
+<body>
+	<div class="w3-bar w3-black  ">
+		<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-text-green" style="width:16.6%;">Home</a>
+		<a href="html/page1.html" class="w3-bar-item w3-button w3-mobile" style="width:16.6%;">Missions</a>
+		<div class="w3-dropdown-click w3-mobile" style="width:16.6%;text-align: center;">
+			<button onclick="myFunction()" class="w3-button " style="width: 100%;">Location</button>
+			<div id="Drop" class="w3-dropdown-content w3-bar-block w3-card-4" style="width: 16.6%;">
+				<a href="..\html\location\HP-location.html" class="w3-bar-item w3-button w3-center">HarryPotter site Location</a>
+				<a href="..\html\location\KH-location.html"class="w3-bar-item w3-button w3-center">KOH-LANTA site Location</a>
+				<a href="..\html\location\ADS-location.html"class="w3-bar-item w3-button w3-center">Agents of Shield site Location</a>
+				<a href="..\html\location\PB-location.html"class="w3-bar-item w3-button w3-center">Prison Break site Location</a>		
+				<a href="..\html\location\SW-location.html"class="w3-bar-item w3-button w3-center">The Swat site Location</a>
+				<a href="..\html\location\TW-location.html"class="w3-bar-item w3-button w3-center">The Witcher site Location</a>
+				<a href="..\html\location\WWZ-location.html"class="w3-bar-item w3-button w3-center">WorldWar Z site Location</a>
+				<a href="..\html\location\T100-location.html"class="w3-bar-item w3-button w3-center">The 100 site Location</a>
+				<a href="..\html\location\MF-location.html"class="w3-bar-item w3-button w3-center">Manifest site Location</a>
+				<a href="..\html\location\RK-location.html"class="w3-bar-item w3-button w3-center">Ragnarok site Location</a>
+			</div>
+		</div>
+		<a href="html/page2.html" class="w3-bar-item w3-button w3-mobile" style="width:16.6%;">Reservation</a>
+		<input type="text" class="w3-bar-item w3-input w3-mobile " style="width:16.6%;" placeholder="Search..">
+		<a href="#" class="w3-bar-item w3-button w3-green w3-mobile" style="width:16.6%;">Go</a>
+	</div>
+	<script>
+		function myFunction() { // déclaration de fonction //
+			var x = document.getElementById("Drop");  // accerder a l'élément (Demo)
+			if (x.className.indexOf("w3-show") == -1) { // récuperation element (x) et definition de l valeur 
+				x.className += " w3-show"; //affichage activé
+			} else {
+				x.className = x.className.replace(" w3-show", "");// affichage desactivé
+			}
+		}
+	</script>
+	<style>
+		.w3-allerta {
+			font-family: "Allerta Stencil", Sans-serif;
+		}
+	</style>
+	<h1 class=" w3-allerta w3-center w3-container w3-green w3-border w3-round-xxlarge">Escape Game</h1>
+	<h2 class="w3-allerta w3-center w3-container w3-green w3-border w3-round-xxlarge">Welcome to my websitesite</h2>
+	<div class="w3-container w3-center">
+	<h2 class="w3-allerta">Here is a video showing how an escape game session goes</h2>
+	<div class="w3-row">
+		<div class="w3-container w3-third">
+		<video width="320" height="240" controls class="w3-container w3-cell w3-threequarter" style="width: 90%;">
+			<source src="..\videos\videoplayback.mp4" type="video/mp4">
+			<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+		</div>
+		<div class="w3-container w3-third">
+			<h5 class=""> In this video, we can  see how goes session of the escape game first we give you a task to complete in 1 hour  with your crewmates you can go from 3 players  to 5 players, depending on your mission we will provide you have to search some clues to resolve the problem of the task given to you, as you can see in the video the four players  have to save the world  by finding some code and go to the next room  complete  mission you need to have some logical sense  and creativity
+			</h5>
+		</div>
+		<div class="w3-container w3-third"><img class="w3-container w3-cell w3-quarter" src="Images\scape_Game.gif" style="width:100%;" height="240" alt="escape game"></div>
+		
+	</div>
+	
+	
+	</div>  
+	<div class="w3-row w3-container w3-padding-32 w3-green w3-margin-top">
+		<div class="w3-center w3-padding-64">
+		  <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Offer</span>
+		</div>
+		<div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+		  <h3>LOOKING FOR AN ESCAPE?</h3>
+		  <p>We’ve got you covered with our three,
+			all new escape adventures!
+			Join our mission with the socercer from harry potter,
+			maybe take a adventure in koh Lanta ,
+			or survive from the zombies of Wolrd War z!
+			There’s something for everybody,
+			and  other types of missions for you to discover!</p>
+		</div>
+	
+		<div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+		  <h3>NEED HELP? WE GOT YOU!</h3>
+		  <p>How do you play the escape game?
+			The principle is simple,
+			you and your team, composed of 3 to 5 people,
+			are locked in a room, a closed room that we call an "escape room".
+			The game consists of getting out of the room within the time limit of 60 minutes.</p>
+		</div>
+	
+		<div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+		  <h3>Reticent! let me explain </h3>
+		  <p>Every game room and sanitary facilities are disinfected between each and every game.
+			All missions are private to ensure the safety and privacy of your group.
+			Our games are built to make sure you will have the best experience in your lifetime
+			Conveniently located next to an amazing selection of restaurants and bars.
+		  </p>
+		</div>
+	
+		<div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+		  <h3>Needs advice from other clients ?</h3>
+		  <p><span class="w3-text-light-blue">Alicia</span> said "This was my first escape room to do and all I can say is WOW! Y'all set the bar high. My friends and I had a blast tonight and can't wait to come back when the new room." <br>
+			<span class="w3-text-light-blue">Luka</span>  said "My SWAT team LOVED this experience. I feared it might be a little cheesy, but it was actually exciting and quite challenging to make it out of the room."
+		</p>
+		</div>
+	  </div>
+	
+
+	<div class="w3-row w3-container w3-padding ">
+		<h1 class=" w3-center w3-border-bottom w3-border-light-grey w3-padding-16">Prices</h1>
+		<p class="w3-center w3-large">Choose a pricing plan that fits your needs.</p>
+		<div class="w3-col s4 w3-padding">
+			<div class="w3-card w3-hover-shadow w3-animate-top w3-white w3-round-large">
+
+				<div class="w3-container w3-center">
+					<img src="Images\3PL.png" class=" w3-round-large" style="width: 80%;" alt="3 people">
+					<h5>3 Player</h5>
+					<ul>
+						<li class="w3-hover-dark-grey">$39.95 per person</li>
+						<li class="w3-hover-dark-grey">People per booking: 3</li>
+						<li class="w3-hover-dark-grey">1 Hour</li>
+						<li class="w3-hover-dark-grey"><strong>By Reservation Only</strong></li>
+					</ul>
+					<button class="w3-button w3-ripple w3-green w3-round-xxlarge w3-right-align ">
+						<a href="html/page2.html"><h5>Book Now</h5></a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="w3-col s4 w3-padding">
+			<div class="w3-card  w3-hover-shadow w3-animate-top w3-white w3-round-large ">
+
+				<div class="w3-container w3-center">
+					<img src="Images\4PL.png" class=" w3-round-large" style="width: 80%;" alt="3 people">
+					<h5>4 Player</h5>
+					<ul>
+						<li class="w3-hover-dark-grey">$24.95 per person</li>
+						<li class="w3-hover-dark-grey">People per booking: 4</li>
+						<li class="w3-hover-dark-grey">1 Hour</li>
+						<li class="w3-hover-dark-grey"><strong>By Reservation Only</strong></li>
+					</ul>
+					<button class="w3-button w3-green w3-ripple  w3-round-xxlarge w3-right-align">
+						<a href="html/page2.html"><h6>Book Now</h6></a>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="w3-col s4 w3-padding">
+			<div class="w3-card w3-hover-shadow w3-white w3-animate-top w3-round-large">
+
+				<div class="w3-container w3-center">
+					<img src="Images\5PL.png" class=" w3-round-large" style="width: 80%;" alt="3 people">
+					<h5>5 Player</h5>
+					<ul>
+						<li class="w3-hover-dark-grey">$19.95 per person</li>
+						<li class="w3-hover-dark-grey">People per booking: 5</li>
+						<li class="w3-hover-dark-grey">1 Hour</li>
+						<li class="w3-hover-dark-grey"><strong>By Reservation Only</strong></li>
+					</ul>
+					<button class="w3-button w3-green w3-ripple w3-round-xxlarge w3-right-align">
+						<a href="html/page2.html"><h5>Book Now</h5></a>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+</body>
+<footer class="w3-container w3-padding-32 w3-green w3-center">
+	<div class="w3-row">
+		<div class="w3-container w3-third w3-padding-32">
+			<h1 class=" w3-center w3-border-bottom w3-border-light-grey w3-padding-16">Subscribe</h1>
+			<p>To get special offers and VIP treatment:</p>
+			<p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+			<button type="button" class="w3-button w3-black w3-margin-bottom">Subscribe</button>
+		</div>
+		<div class="  w3-container w3-third w3-padding-32" id="contact">
+			<h1 class="w3-center w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h1>
+			<p>Lets get in touch and talk about your next project.</p>
+			<form action="/action_page.php" target="_blank">
+			<input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+			<input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+			<input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+			<input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+			<button class="w3-button w3-black w3-section " type="submit">
+				<i class="fa fa-paper-plane "></i> SEND MESSAGE
+			</button>
+			<div class=" w3-border-bottom w3-border-light-grey w3-padding-16"></div>
+			</form>
+		</div>
+		<div class="w3-container w3-third">
+			<h2 class=" w3-border-bottom w3-border-light-grey w3-padding-16">For more you should just <strong>login</strong>  </h2>
+			<button onclick="document.getElementById('id01').style.display='block'"  
+				class="w3-button w3-black w3-large">Login</button>
+
+			<div id="id01" class="w3-modal">
+				<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+					<div class="w3-center"><br>
+						<span onclick="document.getElementById('id01').style.display='none'"
+							class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+						<img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+					</div>
+
+					<form class="w3-container" action="/action_page.php">
+						<div class="w3-section">
+							<label><b>Username</b></label>
+							<input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username"
+								name="usrname" required>
+							<label><b>Password</b></label>
+							<input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw"
+								required>
+							<button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+							<input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+						</div>
+					</form>
+
+					<div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+						<button onclick="document.getElementById('id01').style.display='none'" type="button"
+							class="w3-button w3-red">Cancel</button>
+						<span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</html>
